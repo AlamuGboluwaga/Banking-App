@@ -21,7 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/src/Components
 /src/Dashboard
 /src/Deposite
 /src/New-Customer
