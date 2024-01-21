@@ -23,4 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 
-example.jsx
+Example.jsx
+Crypto.jsx
+Hooks.jsx

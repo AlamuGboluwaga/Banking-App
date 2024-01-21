@@ -5,12 +5,19 @@ import Balance from "../Balance/Balance"
 import Dashboard from "../Dashboard/Dashboard";
 import Deposit from "../Deposit/Deposit";
 import Withdrawer  from "../Withdrawer/Withdrawer";
-const Router = () => {
-  return (
+import Example from "../Components/Example";
+import Hooks from "../Components/Hooks";
+
+
+const Router = ({greetings}) => {
+return (
     <BrowserRouter className="browser">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/balance" element={<Balance />} />
+        <Route path="/hooks" element={<Hooks />} />
+        {/* <Route path="/crypto" element={<CryptoComponent />} /> */}
+        <Route path="/balance" element={<Balance greetings={greetings} />} />
+        <Route path="/example" element={<Example greetings={greetings} />} />
         <Route path="/deposit" element={<Deposit />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/withdrawer" element={<Withdrawer />} />
