@@ -75,6 +75,7 @@ try {
               height="194"
               image={items.images[0]}
               alt="Paella dish"
+              className="h-40 w-30"
             />
             <CardContent>
               <Typography

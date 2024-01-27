@@ -1,5 +1,7 @@
 import Router from "./Router/Router";
 import './styles/tailwind.css'
+
+
 const App=()=>{
 const greetings = "Good Morning Mr, Gboluwaga"
   return (
