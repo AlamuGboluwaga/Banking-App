@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import dataBase from "../Database.jsx/Database";
+import dataBase from "../Database/Database";
 import Input from "../Components/Input";
 import Button from "../Components/Button";
 
