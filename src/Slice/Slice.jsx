@@ -2,6 +2,7 @@ import React from 'react'
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 
 
+const createCustomer =createAsyncThunk("newCustome/createcustome",)
 
 const initialState={
 name:"",
