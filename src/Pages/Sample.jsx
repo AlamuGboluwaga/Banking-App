@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+
 import dataBase from "../Database/Database";
 import Input from "../Components/Input";
 import Button from "../Components/Button";
@@ -40,23 +40,22 @@ import Button from "../Components/Button";
 
 
 
-function Sample() {
-  // Creating a ref
-  const [data,setData]=useState('')
-  const myRef = useRef(null);
+import React, { useRef, useEffect } from "react";
 
-    // Accessing the current property of the ref to get the DOM element
-   
- 
-  return (
-    <div>
-      {/* Assigning the ref to an input element */}
-      <input
-        ref={myRef}
-        type="text"
-        onChange={(e) => setData(e.target.value)}
-      />
-      {myRef.current.focus()}
-    </div>
-  );
-}export default Sample;
+function Sample() {
+  // const count = useRef(0);
+
+  // const t= useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     count.current += 1;
+  //     console.log(`Count: ${count.current}`);
+  //   }, 1000);
+
+  //   return () => {
+  //     clearInterval(intervalId);
+  //   };
+  // }, []);
+
+  return <div>t</div>;
+}
+export default Sample
